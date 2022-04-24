@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Attendence | NIT Delhi</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
+        <meta content="Themesbrand" name="author">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="https://nitdelhi.ac.in/wp-content/uploads/2017/11/myicon.png">
+
+        <!-- Bootstrap Css -->
+        <link href="css\bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
+        <!-- Icons Css -->
+        <link href="css\icons.min.css" rel="stylesheet" type="text/css">
+        <!-- App Css-->
+        <link href="css\app.min.css" id="app-style" rel="stylesheet" type="text/css">
+        
+
+    </head>
+
+    <body data-sidebar="dark">
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            <header id="page-topbar">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box" style="background-color: rgb(212, 219, 249);">
+                            <a href="index.html" class="logo logo-dark">
+                                <span class="logo-sm">
+                                    <img src="https://nitdelhi.ac.in/wp-content/uploads/2017/11/myicon.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="https://nitdelhi.ac.in/wp-content/uploads/2017/11/myicon.png" alt="" height="17">
+                                </span>
+                            </a>
+
+                            <a href="index.html" class="logo logo-light">
+                                <span class="logo-sm">
+                                    <img src="https://nitdelhi.ac.in/wp-content/uploads/2017/11/myicon.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="images\logo-light.png" alt="" height="40">
+                                </span>
+                            </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+                        
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="d-none d-xl-inline-block ml-1 font-size-20">National Institute of Technology, Delhi</span>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex">
+
+                        <div class="dropdown d-none d-lg-inline-block ml-1">
+                            <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
+                                <i class="bx bx-fullscreen"></i>
+                            </button>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle header-profile-user" src="images\users\avatar-2.jpg" alt="Header Avatar">
+                                <span class="d-none d-xl-inline-block ml-1">Manish</span>
+                                <span class="d-none d-xl-inline-block ml-1">181210028</span>
+                            </button>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+                                <a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-16 align-middle mr-1 text-danger"></i> Logout</a>
+                            </button>
+                        </div>
+            
+                    </div>
+                </div>
+            </header> 
+            <!-- ========== Left Sidebar Start ========== -->
+<div class="vertical-menu">
+
+    <div data-simplebar="" class="h-100">
+
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu list-unstyled" id="side-menu">
+                <li class="menu-title">Menu</li>
+
+                <li>
+                    <a href="/dashboard" class="waves-effect">
+                        <i class="bx bx-home-circle"></i>
+                        <span>Dashboards</span>
+                    </a>
+                </li>
+
+                <li class="menu-title">Pages</li>
+                
+                <li>
+                    <a href="/attendence">
+                        <i class="bx bxs-pen"></i>
+                        <span>Attendence</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/result">
+                        <i class="bx bxs-graduation"></i>
+                        <span>Result</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/course-register">
+                        <i class="bx bxs-id-card"></i>
+                        <span>Course Registration</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/reset-pass">
+                        <i class="bx bxs-key"></i>
+                        <span>Change Password</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <form action="/logout?_method=DELETE" method="POST">
+                            <i class="bx bx-power-off font-size-16 align-middle mr-1 text-danger"></i>
+                            <span><button style="color: white;"class="btn" type="submit">Log Out</button></span>
+                        </form>
+                    </a>
+                </li>
+
+
+                
+            </ul>
+        </div>
+        <!-- Sidebar -->
+    </div>
+</div>
+<!-- Left Sidebar End -->
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-0 font-size-18">Attendence</h4>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
+                                            <li class="breadcrumb-item active">Attendence</li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="row">
+                                    
+                                    <div class="col-md-12">
+                                        <div class="card mini-stats-wid">
+                                            <div class="card-body mx-auto">
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <form action="/subject-display-attendence" method="POST"><h4 class="card-title mb-4">Select Semester</h4>
+                                                            <select name="semester" class="form-control form-control-lg" searchable="Search here..">
+                                                                <option value="" disabled selected><%= SEM %></option>
+                                                                <option value="5" data-secondary-text="Production year: 2017">5</option>
+                                                                <option value="4" data-secondary-text="Production year: 2017">4</option>
+                                                                <option value="3" data-secondary-text="Production year: 2017">3</option>
+                                                                <option value="2" data-secondary-text="Production year: 2017">2</option>
+                                                                <option value="1" data-secondary-text="Production year: 2017">1</option>
+                                                              </select><br>
+                                                              <button class="btn btn-primary waves-effect waves-light" >Select</button>
+                                                        </form><br><br>
+                                                        <% if (subject_data[0]) { %>
+                                                            <form action="/attendence" method="POST">
+                                                                <h4 class="card-title mb-4">Select Subject</h4>
+                                                                <select name="subject" class="form-control form-control-lg" searchable="Search here..">
+                                                                    <option value="" disabled selected>Choose Subject</option>
+                                                                    <option value="0" data-secondary-text="Production year: 2017"><%= subject_data[0].Subject_name %></option>
+                                                                    <option value="1" data-secondary-text="Production year: 2015"><%= subject_data[1].Subject_name %></option>
+                                                                    <option value="2" data-secondary-text="Production year: 2019"><%= subject_data[2].Subject_name %></option>
+                                                                    <option value="3" data-secondary-text="Production year: 2016"><%= subject_data[3].Subject_name %></option>
+                                                                    <option value="4" data-secondary-text="Production year: 2016"><%= subject_data[4].Subject_name %></option>
+                                                                    <option value="5" data-secondary-text="Production year: 2016"><%= subject_data[5].Subject_name %></option>
+                                                                    <option value="6" data-secondary-text="Production year: 2019"><%= subject_data[6].Subject_name %></option>
+                                                                </select><br>
+                                                                <button class="btn btn-primary waves-effect waves-light" >Submit</button>                                            
+                                                        </form>
+                                                        <% } %>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- end row -->
+                                <div id="attendence_div" class="card">
+                                    <div class="card-body ">
+                                        <h4 class="card-title mb-4 float-sm-left">Attendence</h4><br><br>
+                                        <h6 class="mb-4 float-sm-left text-danger"><%= message %></h6>
+                                        <div class="clearfix"></div>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <table class="table"style="width:100%">
+                                                    <thead>
+                                                        <th>#</th>
+                                                        <th>DATE</th>
+                                                        <th>STATUS</th>
+                                                        
+                                                    </thead>
+                                                    <tbody>
+                                                        <% if (acad_data[0]) { %>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">1</td>
+                                                                <td class="font-size-15"><%= acad_data[0].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[0].status %></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">2</td>
+                                                                <td class="font-size-15"><%= acad_data[1].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[1].status %></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">3</td>
+                                                                <td class="font-size-15"><%= acad_data[2].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[2].status %></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">4</td>
+                                                                <td class="font-size-15"><%= acad_data[3].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[3].status %></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">5</td>
+                                                                <td class="font-size-15"><%= acad_data[4].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[4].status %></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">6</td>
+                                                                <td class="font-size-15"><%= acad_data[5].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[5].status %></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">7</td>
+                                                                <td class="font-size-15"><%= acad_data[6].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[6].status %></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">8</td>
+                                                                <td class="font-size-15"><%= acad_data[7].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[7].status %></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">9</td>
+                                                                <td class="font-size-15"><%= acad_data[8].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[8].status %></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-muted mb-0">10</td>
+                                                                <td class="font-size-15"><%= acad_data[9].Date %></td>
+                                                                <td class="font-size-15"><%= acad_data[9].status %></td>
+                                                            </tr>
+                                                        <% } %>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <p>Percentage : <h5><%= per %>%</h5></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <script>document.write(new Date().getFullYear())</script> © 2020 Abhinav & Manish.
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="text-sm-right d-none d-sm-block">
+                                    Crafted with <i class="mdi mdi-heart text-danger"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        <!-- JAVASCRIPT -->
+        <script src="libs\jquery\jquery.min.js"></script>
+        <script src="libs\bootstrap\js\bootstrap.bundle.min.js"></script>
+        <script src="libs\metismenu\metisMenu.min.js"></script>
+        <script src="libs\simplebar\simplebar.min.js"></script>
+        <script src="libs\node-waves\waves.min.js"></script>
+
+        <!-- apexcharts -->
+        <script src="libs\apexcharts\apexcharts.min.js"></script>
+
+        <script src="js\pages\dashboard.init.js"></script>
+
+        <!-- App js -->
+        <script src="js\app.js"></script>
+    </body>
+
+</html>

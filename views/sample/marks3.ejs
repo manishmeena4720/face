@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Submit Student Attendence | NIT Delhi</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
+        <meta content="Themesbrand" name="author">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="https://nitdelhi.ac.in/wp-content/uploads/2017/11/myicon.png">
+
+        <!-- Bootstrap Css -->
+        <link href="css\bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
+        <!-- Icons Css -->
+        <link href="css\icons.min.css" rel="stylesheet" type="text/css">
+        <!-- App Css-->
+        <link href="css\app.min.css" id="app-style" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body data-sidebar="dark">
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            <header id="page-topbar">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box" style="background-color: rgb(212, 219, 249);">
+                            <a href="index.html" class="logo logo-dark">
+                                <span class="logo-sm">
+                                    <img src="https://nitdelhi.ac.in/wp-content/uploads/2017/11/myicon.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="https://nitdelhi.ac.in/wp-content/uploads/2017/11/myicon.png" alt="" height="17">
+                                </span>
+                            </a>
+
+                            <a href="index.html" class="logo logo-light">
+                                <span class="logo-sm">
+                                    <img src="https://nitdelhi.ac.in/wp-content/uploads/2017/11/myicon.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="images\logo-light.png" alt="" height="40">
+                                </span>
+                            </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+                        
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="d-none d-xl-inline-block ml-1 font-size-20">National Institute of Technology, Delhi</span>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex">
+
+                        <div class="dropdown d-none d-lg-inline-block ml-1">
+                            <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
+                                <i class="bx bx-fullscreen"></i>
+                            </button>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle header-profile-user" src="images\users\avatar-2.jpg" alt="Header Avatar">
+                                <span name="name"class="d-none d-xl-inline-block ml-1">xx data.Name xx</span>
+                                <span class="d-none d-xl-inline-block ml-1">xx data.id xx</span>
+                            </button>
+                        </div>
+
+                        <div style="padding-top: 15px;"class="">
+                            <a href="">
+                                <form action="/logout?_method=DELETE" method="POST">
+                                    
+                                    <span><button class="btn text-danger" type="submit"><i class="bx bx-power-off font-size-16 align-middle mr-1 text-danger"></i>Log Out</button></span>
+                                </form>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </header> 
+<!-- ========== Left Sidebar Start ========== -->
+<div class="vertical-menu">
+
+    <div data-simplebar="" class="h-100">
+
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu list-unstyled" id="side-menu">
+                <li class="menu-title">Menu</li>
+
+                <li>
+                    <a href="/dashboard3" class="waves-effect">
+                        <i class="bx bx-home-circle"></i>
+                        <span>Dashboards</span>
+                    </a>
+                </li>
+
+                <li class="menu-title">Pages</li>
+                
+                <li>
+                    <a href="/attendence3">
+                        <i class="bx bxs-pen"></i>
+                        <span>Student Attendence</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/marks3">
+                        <i class="bx bxs-book"></i>
+                        <span>Student Marks</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/result3">
+                        <i class="bx bxs-graduation"></i>
+                        <span>Student Results</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/reset-pass3">
+                        <i class="bx bxs-key"></i>
+                        <span>Change Password</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <form action="/logout?_method=DELETE" method="POST">
+                            <i class="bx bx-power-off font-size-16 align-middle mr-1 text-danger"></i>
+                            <span><button style="color: white;"class="btn" type="submit">Log Out</button></span>
+                        </form>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Sidebar -->
+    </div>
+</div>
+<!-- Left Sidebar End -->
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-0 font-size-18">Student Marks</h4>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
+                                            <li class="breadcrumb-item active">Student Marks</li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="card mini-stats-wid">
+                                    <div class="card-body mx-auto">
+                                        
+                                        <div class="media">
+                                            <div class="media-body">
+                                                <form action="/subject-display-attendence" method="POST">
+                                                    <h4 class="card-title mb-4">Semester</h4>
+                                                    <input type="text" name="semester" placeholder="Enter Semester" class="form-control form-control-lg"><br>
+                                                    
+                                                    <h4 class="card-title mb-4">Subject Code</h4>
+                                                    <input type="text" name="subject" placeholder="Enter as ABC123" class="form-control form-control-lg"><br>
+                                                    
+                                                    <h4 class="card-title mb-4">Roll no.</h4>
+                                                    <input type="text" name="id" placeholder="Enter Student Roll No." class="form-control form-control-lg"><br>
+                                                    
+                                                    <h4 class="card-title mb-4">Grade</h4>
+                                                    <input type="text" name="grade" placeholder='Enter Grades' class="form-control form-control-lg"><br>
+                                                    
+                                                    <h4 class="card-title mb-4">Credits Earned</h4>
+                                                    <input type="text" name="credit" placeholder='Enter Credits Earned' class="form-control form-control-lg"><br>
+                                                    
+                                                    <button class="btn btn-primary waves-effect waves-light" >Submit</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- container-fluid -->
+                <!-- End Page-content -->
+
+
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <script>document.write(new Date().getFullYear())</script> © 2020 Abhinav & Manish.
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="text-sm-right d-none d-sm-block">
+                                    Crafted with <i class="mdi mdi-heart text-danger"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        <!-- JAVASCRIPT -->
+        <script src="libs\jquery\jquery.min.js"></script>
+        <script src="libs\bootstrap\js\bootstrap.bundle.min.js"></script>
+        <script src="libs\metismenu\metisMenu.min.js"></script>
+        <script src="libs\simplebar\simplebar.min.js"></script>
+        <script src="libs\node-waves\waves.min.js"></script>
+
+        <!-- apexcharts -->
+        <script src="libs\apexcharts\apexcharts.min.js"></script>
+
+        <script src="js\pages\dashboard.init.js"></script>
+
+        <!-- App js -->
+        <script src="js\app.js"></script>
+    </body>
+
+</html>
